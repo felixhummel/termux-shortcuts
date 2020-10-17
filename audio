@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/bash
+rsync -avzh /storage/3861-3433/audio/ r:s7/audio/
