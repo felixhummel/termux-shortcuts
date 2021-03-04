@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+dt=$(date --iso-8601=seconds)
+x=$(termux-dialog text -t log | jq -r .text)
+echo "$dt $x" >> ~/log

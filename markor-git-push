@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -euo pipefail
+
+set -x
+cd ~/markor/
+git add .
+git commit -m termux-shortcut
+git push

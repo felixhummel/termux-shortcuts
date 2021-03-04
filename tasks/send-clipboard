@@ -1,4 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
 x=$(termux-clipboard-get)
 
-echo "$x" | termux-notification
+echo "$x" | termux-notification \
+	--content "HELLO from termux" \
+	--group stuff \
+	--title 'hello world!' \
+	--action "termux-toast i am the on-click action handler"
