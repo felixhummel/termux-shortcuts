@@ -5,4 +5,4 @@ set -x
 cd ~/markor/
 git add .
 git commit -m termux-shortcut
-git push
+nohup git push &

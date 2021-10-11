@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+sshd -d &
+sshd_pid=$!
+read
+kill $sshd_pid
+true
