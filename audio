@@ -1,2 +1,2 @@
 #!/data/data/com.termux/files/usr/bin/bash
-rsync -avzh ~/storage/shared/Audio/ r:s7/audio/
+rsync -avzh --progress=2 ~/storage/shared/Audio/ r:s7/audio/
